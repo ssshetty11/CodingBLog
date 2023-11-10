@@ -1,0 +1,82 @@
+   .bfaq {
+    padding-left: 30px; 
+    padding-right: 30px; 
+    cursor: pointer;
+  }
+  
+  .btitle {
+    text-align: left; 
+    margin: 20px 0 20px 50px;
+    text-decoration: underline;
+    text-shadow: 2px 2px 6px blue; 
+    font-size: 40px; 
+    padding: 10px 0;
+  }
+  
+  .wraperfaq {
+    padding-top: 20px;
+    padding-right: 50px;
+    padding-left: 50px;
+  }
+  
+  .faql {
+    list-style: none;
+    gap: 10px;
+  }
+
+  .faql:hover{
+    transform: scale(1.1);
+  }
+  
+  .faq h3 {
+    font-size: 30px;
+  }
+  
+  .faq span {
+    font-size: 15px;
+    font-weight: bold;
+    border: 1px solid gray;
+    padding: 7px;
+    border-radius: 30px;
+    opacity: 0.7;
+  }
+  
+  .faq {
+    border: solid 2px black;
+    background-color: #070504;
+    box-shadow: 8px 8px 0px white; 
+    padding: 25px;
+    border-radius: 20px;
+    opacity: 0.6;
+  }
+  
+  .faq:hover {
+    box-shadow: 6px 6px 200px blue; 
+    opacity: 1;
+  }
+  
+  .faq:hover span {
+    border: 1px solid blue;
+    opacity: 1;
+    box-shadow: 2px 2px 4px blue;
+  }
+  
+  @media (max-width: 700px) {
+    .btitle {
+      font-size: 33px;
+      margin: 20px 0 20px 50px;
+    }
+
+    .wraperfaq {
+        padding-top: 20px;
+        padding-right: 20px;
+        padding-left: 20px;
+      }
+  }
+  
+  .lastLine{
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+
